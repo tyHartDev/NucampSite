@@ -27,7 +27,7 @@
     <header class="jumbotron jumbotron-fluid">
         <div class="container">
             <div class="row">
-                <div class="col-4 col-sm-3 col md-2 align-self-center">
+                <div class="col-4 col-sm-3 col-md-2 align-self-center">
                     <img src="img/logo.png" class="img-fluid">
                 </div>
                 <div class="col">
@@ -35,9 +35,7 @@
                     <h2>a better way to camp</h2>
                 </div>
                 <div class="col col-md-4 col-xl-2">
-                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#reserveModal">
-                        Reserve Campsite
-                      </button>
+                    <a  role="button" class="btn btn-lg btn-info id="reserveButton"> Reserve Campsite </a>
                 </div>
             </div>
         </div>
@@ -49,7 +47,7 @@
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
                 <div class="modal-header bg-info text-light">
-                     <h3 class="modal-title" id="reserveModal">Reserve a Campsite</h3>
+                     <h3 class="modal-title">Reserve a Campsite</h3>
                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                      <span aria-hidden="true">&times;</span>
                     </button>
@@ -117,7 +115,7 @@
                         <li class="nav-item"><a class="nav-link" href="contactus.html"><i class="fa fa-address-card fa-lg"></i> Contact</a></li>
                     </ul>
                     <span class="navbar-text ml-auto">
-                        <a role="button" data-toggle="modal" data-target="#loginModal">
+                        <a role="button" id="loginButton">
                             <i class="fa fa-sign-in"></i> Login
                         </a>
                     </span>
@@ -304,8 +302,6 @@
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
     <!-- endbuild -->
-
-
 </body>
 
 </html>
